@@ -99,7 +99,6 @@ a{
     color: #565656;
     text-decoration: none;
     margin: 3px 0px 10px 0px;
-    margin-left: -135px;
 }
 a.forgot{
     padding-bottom: 4px;
@@ -122,11 +121,7 @@ button{
     margin-top: 17px;
     transition: 80ms ease-in;
 }
-.form-container button:hover{
-    background-color: #fff;
-    border: 1.5px solid #3750EB;
-    color: #3750EB;
-}
+
 
 .overlay-container{
     position: absolute;
@@ -185,7 +180,7 @@ button{
 }
 
 .overlay-panel h1{
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 p{
@@ -194,6 +189,7 @@ p{
     line-height: 20px;
     letter-spacing: 0.5px;
     margin: 25px 0px 35px;
+    color: black;
 }
 
 
